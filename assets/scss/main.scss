@@ -1,12 +1,14 @@
 // Imports SCSS theme
 // Vendors variables override and path
-@import "themes/theme";
-@import "vendors/variables";
-@import "base/path";
-@import "vendors/vendor";
-@import "components/component";
-@import "base/placeholder";
-@import "base/utility";
-@import "base/base";
-@import "base/base";
-// @import 'themify-icons/themify-icons';
+@import 'themes/theme';
+@import 'vendors/variables';
+@import 'base/path';
+@import 'vendors/vendor';
+@import 'components/component';
+@import 'base/placeholder';
+@import 'base/utility';
+@import 'base/base';
+@import 'base/base';
+@import 'themify/themify';
+@import 'charitify/charitify';
+@import 'responsive/responsive';

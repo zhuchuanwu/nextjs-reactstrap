@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /** npm packages */
 import React, { Component } from 'react';
-import propTypes from 'prop-types';
+// import propTypes from 'prop-types';
 import Head from 'next/head';
 import { THEME } from '../../constants/vars';
 
@@ -20,7 +20,6 @@ function HeadDefault({
       <title>
         {title} | {THEME.title}
       </title>
-
       <link rel="icon" href="/favicon.ico" />
 
       {/* META SEO */}
@@ -41,7 +40,5 @@ function HeadDefault({
     </Head>
   );
 }
-
-HeadDefault.propTypes = {};
 
 export default HeadDefault;

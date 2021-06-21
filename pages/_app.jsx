@@ -1,12 +1,12 @@
-import App from "next/app";
-import React from "react";
-import { Provider } from "react-redux";
-import withRedux from "next-redux-wrapper";
-import createStore from "../store";
+import App from 'next/app';
+import React from 'react';
+import { Provider } from 'react-redux';
+import withRedux from 'next-redux-wrapper';
+import createStore from '../store';
 
 // Main SCSS
-import "../assets/scss/main.scss";
-
+import '../assets/scss/main.scss';
+// import 'tailwindcss/tailwind.css'
 class MyApp extends App {
   constructor(props) {
     super(props);
@@ -17,7 +17,7 @@ class MyApp extends App {
       store,
       isServer,
       req,
-      query: { amp }
+      query: { amp },
     } = ctx;
     let pageProps = {};
     if (Component.getInitialProps) {

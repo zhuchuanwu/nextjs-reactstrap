@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",
+    "@icon/themify-icons": "^1.0.1-alpha.3",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.4.1",
     "cssnano": "^4.1.10",
@@ -30,7 +31,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
     "prettier": "^1.19.1",
-    "redux-devtools-extension": "^2.13.8"
+    "redux-devtools-extension": "^2.13.8",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.2"
   }
 }

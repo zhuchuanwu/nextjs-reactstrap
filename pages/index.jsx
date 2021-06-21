@@ -1,10 +1,10 @@
 import React from 'react';
-import TopHeader from '../components/TopHeader/TopHeader';
+import Header from '../components/Header/Header';
 
 export default function index() {
   return (
     <div>
-      <TopHeader />
+      <Header />
     </div>
   );
 }
