@@ -33,21 +33,21 @@ class MyApp extends App {
     return { pageProps };
   }
   componentDidMount() {
-    // $(document).ready(function() {
-    //   debugger;
-    //   $('#main-slider').nivoSlider({
-    //     effect: 'random',
-    //     animSpeed: 300,
-    //     pauseTime: 5000,
-    //     directionNav: true,
-    //     manualAdvance: false,
-    //     controlNavThumbs: false,
-    //     pauseOnHover: true,
-    //     controlNav: false,
-    //     prevText: "<i class='ti-arrow-left'></i>",
-    //     nextText: "<i class='ti-arrow-right'></i>",
-    //   });
-    // });
+    $(document).ready(function() {
+      debugger;
+      $('#main-slider').nivoSlider({
+        effect: 'random',
+        animSpeed: 300,
+        pauseTime: 5000,
+        directionNav: true,
+        manualAdvance: false,
+        controlNavThumbs: false,
+        pauseOnHover: true,
+        controlNav: false,
+        prevText: "<i class='ti-arrow-left'></i>",
+        nextText: "<i class='ti-arrow-right'></i>",
+      });
+    });
   }
   render() {
     const { Component, pageProps, store } = this.props;

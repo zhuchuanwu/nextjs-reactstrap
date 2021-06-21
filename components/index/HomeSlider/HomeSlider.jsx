@@ -5,7 +5,7 @@ import React, { useEffect } from 'react';
 export default function HomeSlider() {
   
   return (
-    <div className="slider-section">
+    <section className="slider-section">
       <div className="slider-wrapper">
         <div id="main-slider" className="nivoSlider">
           <img src="img/slider-1.jpg" alt="" title="#slider-caption-1" />
@@ -127,6 +127,6 @@ export default function HomeSlider() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

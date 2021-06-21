@@ -26,7 +26,13 @@ function HeadDefault({
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta name="keywords" content={keyword} />
-
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/nivo-slider.css"
+        integrity="sha512-3qYZBBFvlamXDDKmW5p0yWWXLYKkbryU2zY1aG/XgrHTu/lzICcnkPMdameqa/x2WgTrxXHuHW6lWUTdAXjgww=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
       <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
@@ -51,12 +57,35 @@ function HeadDefault({
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.pack.js"></script>
-
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.min.js"
+        integrity="sha512-rwjQKesPaeXWoFNcTVz8rPBqsU06+JhcsudIQfpUiOhxGHqymn9aSJpG7NPu4MZJ7V32Cq4YjT1qV5vVngYA1g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.js"
+        integrity="sha512-c+ijwoxjM3KV+XBKQCbfbAuQ7omjYCyjx8Nei2e63oCa1Ih9WAUr3UrgHSyWXnjEm/oU42T90T0NtQjuKxpTnw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.pack.min.js"
+        integrity="sha512-rwjQKesPaeXWoFNcTVz8rPBqsU06+JhcsudIQfpUiOhxGHqymn9aSJpG7NPu4MZJ7V32Cq4YjT1qV5vVngYA1g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
       <script src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-
+      {/* <script>
+        $(window).load(function (){' '}
+        {$('#main-slider').nivoSlider({
+          effect: 'sliceUp', //此参数可自选
+          controlNavThumbs: true, //此参数可自选
+        })}
+        )
+      </script> */}
       {/* <script src="js/contact.js"></script> */}
 
       {/* <script src="js/main.js"></script> */}
