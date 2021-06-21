@@ -1,23 +1,8 @@
 {
   "name": "nextjs-reactstrap",
   "description": "NextJS with Reactstrap Dashboard",
-  "keywords": [
-    "NextJS",
-    "ReactJS",
-    "Reactstrap"
-  ],
-  "homepage": "https://github.com/dyarfi/nextjs-reactstrap",
   "version": "0.1.0",
   "private": false,
-  "license": "Unlicense",
-  "author": {
-    "name": "Defrian Yarfi",
-    "email": "dyarfi20@gmail.com",
-    "url": "https://dyarfi.github.io/"
-  },
-  "contributors": [
-    "defrian <dyarfi20@gmail.com> (https://dyarfi.github.io/)"
-  ],
   "scripts": {
     "dev": "next dev -p 3001",
     "build": "next build",

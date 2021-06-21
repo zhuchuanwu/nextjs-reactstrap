@@ -4,10 +4,11 @@ import { Row, Col } from 'reactstrap';
 
 import ErrorLayout from '../layout/ErrorLayout';
 import HeadDefault from '../layout/head/HeadDefault';
-function Error({ statusCode }) {
+function Error(error) {
+  debugger;
   return (
     <>
-      <HeadDefault
+      {/* <HeadDefault
         title={`Page not Found - ${statusCode} | Next.JS with Reactstrap (React dashboard web application)`}
         description="NextJS with Reactstrap components with SCSS library, a NextJS dashboard template."
       />
@@ -28,7 +29,7 @@ function Error({ statusCode }) {
             </span>
           </Col>
         </Row>
-      </ErrorLayout>
+      </ErrorLayout> */}
     </>
   );
 }

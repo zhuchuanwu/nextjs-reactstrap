@@ -1,0 +1,40 @@
+/*Top Header*/
+.top-header{
+    background-color: #f8b864;
+    padding: 10px 0;
+}
+.top-content-wrap ul li{
+    margin-right: 15px;
+    display: inline-block;
+}
+.top-content-wrap ul li a{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+.top-content-wrap ul li i{
+    color: #fff;
+    margin-right: 10px;
+}
+.top-content-wrap .right-info{
+    text-align: right;
+}
+.top-content-wrap .right-info i{
+    margin-right: -5px;
+    color: #fff;
+    line-height: 25px;
+    display: block;
+    font-size: 12px;
+}
+.top-content-wrap .right-info li:last-child{
+    margin-right: 0;
+}
+/*Bottom Header */
+.bottom-header{
+    background-color: #fff;
+    position: relative;
+}
+.bottom-content-wrap{
+    display: flex;
+    align-items: center;
+}
