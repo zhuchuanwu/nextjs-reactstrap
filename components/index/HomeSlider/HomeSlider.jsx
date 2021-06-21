@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './HomeSlider.scss';
+
 
 
 export default function HomeSlider() {
