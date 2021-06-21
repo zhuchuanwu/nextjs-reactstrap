@@ -1,24 +1,10 @@
 import React from 'react';
-import {
-  Container,
-  Row,
-  Col,
-  CardDeck,
-  Card,
-  CardBody,
-  CardText,
-  Media,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  Button,
-} from 'reactstrap';
+import { Media,Container } from 'reactstrap';
 
 export default function HeaderMenu() {
   return (
     <div className="bottom-header">
-      <div className="container">
+      <Container>
         <div className="bottom-content-wrap row">
           <div className="col-sm-4">
             <div className="site-branding">
@@ -89,7 +75,7 @@ export default function HeaderMenu() {
             </a>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

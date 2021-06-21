@@ -6,10 +6,12 @@ import createStore from '../store';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
+import $ from 'jquery';
 
 library.add(fab, faCheckSquare, faCoffee);
 // Main SCSS
 import '../assets/scss/main.scss';
+import '../assets/css/css-animation.scss';
 // import 'tailwindcss/tailwind.css'
 class MyApp extends App {
   constructor(props) {
@@ -29,6 +31,23 @@ class MyApp extends App {
     }
 
     return { pageProps };
+  }
+  componentDidMount() {
+    $(document).ready(function() {
+      debugger;
+      $('#main-slider').nivoSlider({
+        effect: 'random',
+        animSpeed: 300,
+        pauseTime: 5000,
+        directionNav: true,
+        manualAdvance: false,
+        controlNavThumbs: false,
+        pauseOnHover: true,
+        controlNav: false,
+        prevText: "<i class='ti-arrow-left'></i>",
+        nextText: "<i class='ti-arrow-right'></i>",
+      });
+    });
   }
   render() {
     const { Component, pageProps, store } = this.props;

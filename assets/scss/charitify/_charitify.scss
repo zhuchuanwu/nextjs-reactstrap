@@ -401,7 +401,10 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 /* ==========================================================================
    3.0 Slider Section
    ========================================================================== */
-.slider-section{}
+.slider-section{
+    width: 100vw;
+    height: 500px;
+}
 .slider-text {
     width: 100%;
     text-align: center;
