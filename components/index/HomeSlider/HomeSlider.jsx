@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
 
-
-
 export default function HomeSlider() {
-  
   return (
     <section className="slider-section">
-      <div className="slider-wrapper">
+      {/* <div className="slider-wrapper"> */}
+      <div className="container-fluid vh-100 banner-box">
         <div id="main-slider" className="nivoSlider">
           <img src="img/slider-1.jpg" alt="" title="#slider-caption-1" />
           <img src="img/slider-2.jpg" alt="" title="#slider-caption-2" />

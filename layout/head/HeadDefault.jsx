@@ -26,69 +26,65 @@ function HeadDefault({
       <meta name="title" content={title} />
       <meta name="description" content={description} />
       <meta name="keywords" content={keyword} />
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/nivo-slider.css"
-        integrity="sha512-3qYZBBFvlamXDDKmW5p0yWWXLYKkbryU2zY1aG/XgrHTu/lzICcnkPMdameqa/x2WgTrxXHuHW6lWUTdAXjgww=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      />
-      <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+      <link rel="stylesheet" href="css/themify-icons.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+      <link rel="stylesheet" href="css/elegant-font-icons.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="css/elegant-line-icons.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.2/isotope.pkgd.min.js"></script>
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.1.0/js/smooth-scroll.min.js"></script>
+      <link rel="stylesheet" href="css/venobox/venobox.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.3/venobox.min.js"></script>
+      <link rel="stylesheet" href="css/owl.carousel.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.min.js"></script>
+      <link rel="stylesheet" href="css/slicknav.min.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+      <link rel="stylesheet" href="css/css-animation.min.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+      <link rel="stylesheet" href="css/nivo-slider.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+      <link rel="stylesheet" href="css/main.css" />
 
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.min.js"
-        integrity="sha512-rwjQKesPaeXWoFNcTVz8rPBqsU06+JhcsudIQfpUiOhxGHqymn9aSJpG7NPu4MZJ7V32Cq4YjT1qV5vVngYA1g=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.js"
-        integrity="sha512-c+ijwoxjM3KV+XBKQCbfbAuQ7omjYCyjx8Nei2e63oCa1Ih9WAUr3UrgHSyWXnjEm/oU42T90T0NtQjuKxpTnw=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.pack.min.js"
-        integrity="sha512-rwjQKesPaeXWoFNcTVz8rPBqsU06+JhcsudIQfpUiOhxGHqymn9aSJpG7NPu4MZJ7V32Cq4YjT1qV5vVngYA1g=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      ></script>
-      <script src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+      <link rel="stylesheet" href="css/responsive.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-      {/* <script>
-        $(window).load(function (){' '}
-        {$('#main-slider').nivoSlider({
-          effect: 'sliceUp', //此参数可自选
-          controlNavThumbs: true, //此参数可自选
-        })}
-        )
-      </script> */}
-      {/* <script src="js/contact.js"></script> */}
+      <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+      <script src="js/vendor/jquery-1.12.4.min.js"></script>
 
-      {/* <script src="js/main.js"></script> */}
+      <script src="js/vendor/bootstrap.min.js"></script>
+
+      <script src="js/vendor/tether.min.js"></script>
+
+      <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+
+      <script src="js/vendor/owl.carousel.min.js"></script>
+
+      <script src="js/vendor/jquery.isotope.v3.0.2.js"></script>
+
+      <script src="js/vendor/smooth-scroll.min.js"></script>
+
+      <script src="js/vendor/venobox.min.js"></script>
+
+      <script src="js/vendor/jquery.ajaxchimp.min.js"></script>
+
+      <script src="js/vendor/jquery.counterup.min.js"></script>
+
+      <script src="js/vendor/jquery.waypoints.v2.0.3.min.js"></script>
+
+      <script src="js/vendor/jquery.slicknav.min.js"></script>
+
+      <script src="js/vendor/jquery.nivo.slider.pack.js"></script>
+
+      <script src="js/vendor/letteranimation.min.js"></script>
+
+      <script src="js/vendor/wow.min.js"></script>
+
+      <script src="js/contact.js"></script>
+
+      <script src="js/main.js"></script>
       {/* META OG */}
       <meta property="og:title" content={ogTitle} />
       <meta property="og:description" content={ogDescription} />

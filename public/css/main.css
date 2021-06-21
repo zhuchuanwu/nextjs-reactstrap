@@ -1,6 +1,147 @@
+    /*Charitify NGO/Charity/Fundraising Template By DynamicLayers*/
 
+/*  ==========================================================================
+    Table of Contets
+    ==========================================================================
+    
+    1.0 Common Styles
+    2.0 Header Section
+    3.0 Slider Section
+    4.0 Promo Section
+    5.0 Causes Section
+    6.0 About Section
+    7.0 Campaigns Section
+    8.0 Team Section
+    9.0 Counter Section
+    10.0 Event Section
+    11.0 Testimonial Section
+    12.0 Sponsor Section
+    13.0 Widget Section
+    14.0 Hero Section
+    15.0 Page Header Section
+    16.0 CTA Section
+    17.0 Gallery Section
+    18.0 Blog Section
+	19.0 Sidebar Section
+	20.0 Contact Section
+	21.0 Footer Section
+	22.0 Scroll To Top
+    
+    ==========================================================================
+    DynamicLayers
+    ========================================================================== */
 
+    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap');
+    
+/*  ==========================================================================
+    1.0 Common Styles
+    ========================================================================== */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    color: #555;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    position: relative;
+    overflow-x: hidden;
+}
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Jost', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    color: #282828;
+}
+h1{
+    font-size: 70px;
+    line-height: 1;
+    margin: 0 0 10px;
+    letter-spacing: -0.02em;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    color: #282828;
+    margin: 0 0 8px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
+h3,h4{
+    margin: 0 0 10px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #282828;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 22px;
+}
+h4{
+    font-size: 15px;
+}
+h5,h6{
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+img{
+    border: none;
+    outline:none;
+}
+ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+a{  font-family: "Jost",sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+a:focus{
+    outline: 0;
+    text-decoration: none;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+   color: #888 !important;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder{ /* Firefox 18- */
+   color: #888 !important;  
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder{  /* Firefox 19+ */
+   color: #888 !important;  
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder{  
+   color: #888 !important;  
+}
+button{
+    border: none;
+    background: none;
+}
+/* Helper Class */
+.padding{
+    padding: 80px 0;
+}
+.no-padding{
+    padding: 0;
+}
 .mb-10{ margin-bottom: 10px; }
 .mb-15{ margin-bottom: 15px; }
 .mb-20{ margin-bottom: 20px; }
@@ -401,10 +542,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 /* ==========================================================================
    3.0 Slider Section
    ========================================================================== */
-.slider-section{
-    width: 100vw;
-    height: 500px;
-}
+.slider-section{}
 .slider-text {
     width: 100%;
     text-align: center;
@@ -700,7 +838,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    7.0 Campaigns Section
    ========================================================================== */
 .campaigns-section{
-	// background-image: url(../img/featured-bg.jpg);
+	background-image: url(../img/featured-bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -887,7 +1025,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    9.0 Counter Section
    ========================================================================== */
 .counter-section{
-	// background-image: url(../img/counters-bg.jpg);
+	background-image: url(../img/counters-bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -1045,7 +1183,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    ========================================================================== */
 .widget-section{
     background-color: #222;
-    // background-image: url(../img/map.png);
+    background-image: url(../img/map.png);
     background-position: right 150px center;
     background-repeat: no-repeat;
     width: 100%;
@@ -1095,7 +1233,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    14.0 Hero Section
    ========================================================================== */
 .hero-section{
-	// background-image: url(../img/hero-bg.jpg);
+	background-image: url(../img/hero-bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -1120,7 +1258,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    15.0 Page Header Section
    ========================================================================== */
 .pager-header{
-    // background-image: url(../img/page-header-bg.jpg);
+    background-image: url(../img/page-header-bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -1173,7 +1311,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    16.0 CTA Section
    ========================================================================== */
 .cta-section{
-    // background-image: url(../img/cta-bg.jpg);
+    background-image: url(../img/cta-bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
