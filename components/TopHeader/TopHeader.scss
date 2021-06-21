@@ -3,7 +3,10 @@
   background-color: #f8b864;
   padding: 10px 0;
 }
-
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: '\f09a';
+}
 .top-content-wrap ul li {
   margin-right: 15px;
   display: inline-block;
